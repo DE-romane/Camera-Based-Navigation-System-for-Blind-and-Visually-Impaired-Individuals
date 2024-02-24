@@ -1,28 +1,36 @@
-# Camera Based Navigation System for Blind and Visually Impaired Individuals
+# Camera Based Navigation System for Blind and Visually Impaired People
 
 ## Team Members
-**Romany Tawfeek Aziz**
-**Islam Mohamed Kamal**
-**Karam Nasreddin Abulhassan**
-**Mahmoud Ahmed Ibrahim**
-**Mohamed Fareed Gad**
-**Mohamed Saber El Sayed**
+- **Romany Tawfeek Aziz**
+- **Islam Mohamed Kamal**
+- **Karam Nasreddin Abulhassan**
+- **Mahmoud Ahmed Ibrahim**
+- **Mohamed Fareed Gad**
+- **Mohamed Saber El Sayed**
 
 **Supervised by :**
-**Dr. Mostafa Salah**
-**Dr. Ahmed Farghal**
+- **Dr. Mostafa Salah**
+- **Dr. Ahmed Farghal**
+
+**Project name : Camera Based Navigation System for Blind and Visually Impaired People**
+ 
+**Project Grade : Excellent**
 
 ## Introduction
 In this project, we present a camera-based navigation system for blind and visually impaired people. The system consists of a pair of smart glasses equipped with a camera, a Raspberry Pi, an ultrasonic sensor, and a headphone. The system can perform various tasks such as optical character recognition, text to speech, face recognition, object detection, and obstacle avoidance. The system aims to help the users to interact with their surroundings more easily and safely. We describe the hardware and software components of the system, the design and implementation of the deep learning models, and the results of the evaluation.
 
-![[Introduction-1.jpg|500]]
+<p float="left">
+  <img src="/img/Introduction-1.jpg" width="47%" height="350" />
+   <img src="/img/Introduction-2.jpg" width="47%" height="350" />
+</p>
 
-![[Introduction-2.jpg|500]]
 
 ## System prototype 
-![[System-prototype.png]]
+<img src="/img/System-prototype.png"  height="500" />
+
 ## Features
-![[Features-1.png]]
+<img src="/img/Features-1.png"  height="400" />
+
 
 Users can switch between different modes using physical buttons connected to the Raspberry Pi's GPIO pins.
 
@@ -30,7 +38,8 @@ Users can switch between different modes using physical buttons connected to the
 - **Face Recognition Mode (1):** Identifies faces of known individuals from a pre-trained dataset and announces their names. This mode assists in recognizing familiar faces and enhancing social interactions.
 - **OCR (Optical Character Recognition) Mode (2):** Extracts text from images captured by the camera and converts it into audible speech. This feature enables users to read text from signs, documents, or other printed materials.
 
-![[Features-2.jpg]]
+<img src="/img/Features-2.jpg"/>
+
 
 ### Object Detection Mode (Mode 0)
 
@@ -121,21 +130,27 @@ The hardware used in this project are:
 - Recommendation: Autodesk Fusion360 is preferred for designing and creating efficient mechanical parts in 3D printing.
 - Description: Fusion360 offers a comprehensive suite of tools for parametric modeling, assembly design, simulation, and computer-aided manufacturing.
 - File Format: STL (Standard Triangle Language) is the native file format for stereolithography CAD software by 3D Systems, widely used in rapid prototyping, 3D printing, and computer-aided manufacturing.
-![[3Dprinting-1.jpg]]
 
-![[3Dprinting-2.jpg]]
+<p float="left">
+  <img src="/img/3Dprinting-1.jpg" width="47%" height="350" />
+   <img src="/img/3Dprinting-2.jpg" width="47%" height="350" />
+</p>
 
-![[3Dprinting-3.jpg]]
+<p float="left">
+  <img src="/img/3Dprinting-3.jpg" width="47%" height="350" />
+   <img src="/img/3Dprinting-4.jpg" width="47%" height="350" />
+</p>
 
-![[3Dprinting-4.jpg]]
+<p float="left">
+  <img src="/img/3Dprinting-5.jpg" width="47%" height="350" />
+   <img src="/img/3Dprinting-6.jpg" width="47%" height="350" />
+</p>
 
-![[3Dprinting-5.jpg]]
+<p float="left">
+  <img src="/img/3Dprinting-7.jpg" width="47%" height="350" />
+   <img src="/img/3Dprinting-8.jpg" width="47%" height="350" />
+</p>
 
-![[3Dprinting-6.jpg]]
-
-![[3Dprinting-7.jpg]]
-
-![[3Dprinting-8.jpg]]
 
 ## User Interaction
 - Users can switch between different modes using physical buttons connected to the Raspberry Pi's GPIO pins.
@@ -149,20 +164,16 @@ The hardware used in this project are:
 ## Conclusion
 The Camera Based Navigation System offers a valuable tool for blind and visually impaired individuals to navigate their environment independently. By leveraging advanced technologies such as deep learning and real-time image processing, the system provides crucial information about objects, faces, and text, enabling users to interact with the world more confidently and autonomously.
 
-
-![[IMG_20220714_235207_919.jpg]]
-
-
-
-
-![[IMG_20220714_235204_349.jpg]]
-
+<p float="left">
+  <img src="/img/IMG_20220714_235207_919.jpg" width="47%" height="350" />
+   <img src="/img/IMG_20220714_235204_349.jpg" width="47%" height="350" />
+</p>
 
 
 
 
 ## resource
 
-code :
+**code :** [blind_aid_system](https://github.com/DE-romane/Camera-Based-Navigation-System-for-Blind-and-Visually-Impaired-Individuals/blob/main/blind_aid_system.py).
 
-the presentation :
+**the presentation :** [Camera Based Navigation System for Blind and Visually Impaired Individuals](https://github.com/DE-romane/Camera-Based-Navigation-System-for-Blind-and-Visually-Impaired-Individuals/blob/main/Camera%20Based%20Navigation%20System%20for%20Blind%20and%20Visually%20Impaired%20Individuals.pdf).
